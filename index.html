@@ -18,6 +18,11 @@
       href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/9becdc147d.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- tailWind customize -->
     <script>
       tailwind.config = {
@@ -34,7 +39,89 @@
   </head>
   <body>
     <!-- header section -->
-    <header></header>
+    <header>
+      <!-- navbar -->
+      <div class="navbar bg-base-100 lg:px-12 lg:py-4">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow font-poppins"
+            >
+              <li><a>Home</a></li>
+              <div class="flex items-center">
+                <li>
+                  <a>Services<i class="fa-solid fa-chevron-right"></i></a>
+                </li>
+              </div>
+              <div class="flex items-center">
+                <li>
+                  <a>Cases<i class="fa-solid fa-chevron-right"></i></a>
+                </li>
+              </div>
+              <div class="flex items-center">
+                <li>
+                  <a>Blog<i class="fa-solid fa-chevron-right"></i></a>
+                </li>
+              </div>
+              <div class="flex items-center">
+                <li>
+                  <a>Contact Us<i class="fa-solid fa-chevron-right"></i></a>
+                </li>
+              </div>
+            </ul>
+          </div>
+          <img src="images/logo2.png" alt="" />
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 font-poppins bg-transparent">
+            <li><a>Home</a></li>
+            <div class="flex items-center">
+              <li>
+                <a>Services<i class="fa-solid fa-chevron-right"></i></a>
+              </li>
+            </div>
+            <div class="flex items-center">
+              <li>
+                <a>Cases<i class="fa-solid fa-chevron-right"></i></a>
+              </li>
+            </div>
+            <div class="flex items-center">
+              <li>
+                <a>Blog<i class="fa-solid fa-chevron-right"></i></a>
+              </li>
+            </div>
+            <div class="flex items-center">
+              <li>
+                <a>Contact Us<i class="fa-solid fa-chevron-right"></i></a>
+              </li>
+            </div>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a
+            class="btn bg-legal-primary hover:bg-blue-900 font-poppins text-white font-semibold"
+            >Free Consultation</a
+          >
+        </div>
+      </div>
+    </header>
     <!-- main section -->
     <main></main>
     <!-- footer section -->
