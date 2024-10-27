@@ -4,3 +4,8 @@
 .font-eb-garamond {
   font-family: "EB Garamond", serif;
 }
+@layer utilities {
+  .bg-gradient-grid {
+    background: linear-gradient(180deg, #f3f3f3 0%, transparent 100%);
+  }
+}
